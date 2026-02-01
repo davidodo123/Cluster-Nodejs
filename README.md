@@ -57,3 +57,8 @@ Como se ejecuta como unico proceso, sale asi.
 ![Comprobamos load](assets/img/comprobamosload.png)
 - Ahora lo comprobamos con mas solicitudes "loadtest http://localhost:3000/api/50000000 -n 1000 -c 100"
 ![Comprobamos load con mas solicitudes](assets/img/massolicitudes.png)
+
+- Ejecutamos la otra aplicacion que si tiene clusters, utilizamos node y comprobamos: 
+![Comprobamos load con cluster](assets/img/loadcloster1.png)
+![Comprobamos load con cluster y mas solicitudes](assets/img/loadcloster2.png)
+
