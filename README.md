@@ -41,3 +41,9 @@ Como se ejecuta como unico proceso, sale asi.
 
 - Hay que crear el archivo y se modifica con los siguientes datos: 
 ![Segunda App](assets/img/segundaapp.png)
+- Ejecutamos la app:
+![Ejecutamos segunda App](assets/img/Ejecutamos2app.png)
+- Comprobamos otra vez los tiempos. 
+![Lenta](assets/img/lenta.png)
+![Rapida](assets/img/rapida.png)
+- Esta diferencia es porque se crean varios procesos workers al mismo puerto, entonces las peticiones se distribuyen entre ellos, permitiendo atender a multiples sulicitudes.
