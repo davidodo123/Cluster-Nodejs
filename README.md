@@ -53,3 +53,7 @@ Como se ejecuta como unico proceso, sale asi.
 
 -Instalamos loadtest
 ![Instalamos loadtest](assets/img/instalamosloadtest.png)
+- Comprobamos con "loadtest http://localhost:3000/api/500000 -n 1000 -c 100"
+![Comprobamos load](assets/img/comprobamosload.png)
+- Ahora lo comprobamos con mas solicitudes "loadtest http://localhost:3000/api/50000000 -n 1000 -c 100"
+![Comprobamos load con mas solicitudes](assets/img/massolicitudes.png)
