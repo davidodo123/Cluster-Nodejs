@@ -62,3 +62,8 @@ Como se ejecuta como unico proceso, sale asi.
 ![Comprobamos load con cluster](assets/img/loadcloster1.png)
 ![Comprobamos load con cluster y mas solicitudes](assets/img/loadcloster2.png)
 
+
+## Uso de PM2 para administrar un clúster de Node.js ##
+
+- Necesitmos instalarnos pm2 y conprobamos
+![Instalacion pm2](assets/img/pm2.png)
