@@ -35,3 +35,9 @@
 ![Tiempo del mas grande](assets/img/tiempo1.png)
 ![Tiempo de la otra pagina](assets/img/tiempo2.png)
 Como se ejecuta como unico proceso, sale asi.
+
+
+## Proyecto Con cluster ##
+
+- Hay que crear el archivo y se modifica con los siguientes datos: 
+![Segunda App](assets/img/segundaapp.png)
