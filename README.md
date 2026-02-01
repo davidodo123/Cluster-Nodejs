@@ -47,3 +47,9 @@ Como se ejecuta como unico proceso, sale asi.
 ![Lenta](assets/img/lenta.png)
 ![Rapida](assets/img/rapida.png)
 - Esta diferencia es porque se crean varios procesos workers al mismo puerto, entonces las peticiones se distribuyen entre ellos, permitiendo atender a multiples sulicitudes.
+
+
+## Metricas de rendimiento##
+
+-Instalamos loadtest
+![Instalamos loadtest](assets/img/instalamosloadtest.png)
