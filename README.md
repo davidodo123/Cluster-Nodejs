@@ -70,23 +70,5 @@ Como se ejecuta como unico proceso, sale asi.
 - Iniciamos la aplicaccion sin cluster
 ![Iniciamos pm2](assets/img/pm2sinclusterinicio.png)
 
-- Nos descargamos  pm2 ecosystme: 
+- Nos descargamos pm2 ecosystme: 
 ![Instalacion pm2 ecosystem](assets/img/instalamosecosystem.png)
-- Se nos crea un archivo "ecosystem.config.js", hay que configurarlo.
-![Configuracion pm2 ecosystem](assets/img/configecosystem.png)
-- Iniciamos
-![iniciamos pm2 ecosystem](assets/img/iniciamoseco.png)
-- pm2 ls 
-![pm2 ls](assets/img/pm2ls.png)
-- pm2 log
-![pm2 logs](assets/img/pm2log.png)
-- pm2 monit
-![pm2 logs](assets/img/pm2monit.png)
-
-
-## Cuestionario ##
-
-¿Sabrías decir por qué en algunos casos concretos, como este, la aplicación sin clusterizar tiene
-mejores resultados?
-
-La aplicación sin clusterizar es más rápida en tareas ligeras porque evita la sobrecarga de gestión y la latencia de comunicación entre el proceso maestro y los hijos. En sistemas con pocos núcleos, el cambio de contexto constante entre procesos reduce la eficiencia del procesador en lugar de mejorarla. Por tanto, el clustering solo es rentable cuando la complejidad del cálculo compensa el coste de administrar múltiples procesos en paralelo.
