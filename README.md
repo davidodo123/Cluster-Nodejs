@@ -23,3 +23,9 @@
 ![Borrar expres y instalarlo](assets/img/borramosexpress.png)
 - Ya funcionaria y estaria la aplicacion escuchando por el puerto dicho "3000", para acceder tenemos que saber la ip y poner :3000
 
+
+## Funcionamiento en Web ##
+
+- Escribimos Hello World:
+![Hello](assets/img/Helloworld.png)
+- Comprobacion Web
