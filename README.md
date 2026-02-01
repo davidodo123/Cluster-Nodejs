@@ -29,3 +29,9 @@
 - Escribimos Hello World:
 ![Hello](assets/img/Helloworld.png)
 - Comprobacion Web
+![Final Contar](assets/img/finalcount.png)
+![Final Count mas grande](assets/img/finalmasgrande.png)
+- Se puede ver que va lento y cuando abrimos otra pagina vuelve a subir 
+![Tiempo del mas grande](assets/img/tiempo1.png)
+![Tiempo de la otra pagina](assets/img/tiempo2.png)
+Como se ejecuta como unico proceso, sale asi.
