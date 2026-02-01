@@ -72,3 +72,13 @@ Como se ejecuta como unico proceso, sale asi.
 
 - Nos descargamos pm2 ecosystme: 
 ![Instalacion pm2 ecosystem](assets/img/instalamosecosystem.png)
+- Se nos crea un archivo "ecosystem.config.js", hay que configurarlo.
+![Configuracion pm2 ecosystem](assets/img/configecosystem.png)
+- Iniciamos
+![iniciamos pm2 ecosystem](assets/img/iniciamoseco.png)
+- pm2 ls 
+![pm2 ls](assets/img/pm2ls.png)
+- pm2 log
+![pm2 logs](assets/img/pm2log.png)
+- pm2 monit
+![pm2 logs](assets/img/pm2monit.png)
