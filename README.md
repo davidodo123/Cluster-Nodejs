@@ -12,3 +12,9 @@
 ![Descargamos Express](assets/img/express.png)
 - Despues de esto creamos con nano un archivo app.js y añadimos el siguiente contenido y se ejecuta node:
 ![Datos de la aplicación](assets/img/aplicacionDatos.png)
+- En mi caso, sale un error, que sucede por que la instalacion de node es una version antigua, sale por predeterminado, asi que busco la version mas reciente
+- Borrar node.
+![Borrar Node](assets/img/BorrarNode.png)
+- Reinstalarlo, con una version mas actual 
+![Reinstalar](assets/img/Reinstalar.png)
+- Comprobamos
